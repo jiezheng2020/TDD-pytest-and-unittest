@@ -22,8 +22,22 @@ class TestRomanNumerals(unittest.TestCase):
 
             self.assertEqual(value,4)
 
-
     def test_v(self):
             value = parse("V")
 
             self.assertEqual(value,5)
+
+    def test_vi(self):
+        value = parse("VI")
+
+        self.assertEqual(value,6)
+
+    def test_vii(self):
+            value = parse("VII")
+
+            self.assertEqual(value,7)
+
+    def test_viii(self):
+            value = parse("VIII")
+
+            self.assertEqual(value,8)
